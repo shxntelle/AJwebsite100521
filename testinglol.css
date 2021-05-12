@@ -56,3 +56,16 @@ h3 {
         background-attachment: scroll;
     }
 }
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: #777;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(98, 98, 98);
+  }
