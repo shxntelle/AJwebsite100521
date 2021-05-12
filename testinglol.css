@@ -56,3 +56,8 @@ h3 {
         background-attachment: scroll;
     }
 }
+
+button {
+    background-color: #fff;
+    color: #777;
+}
