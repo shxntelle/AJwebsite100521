@@ -9,6 +9,11 @@ body {
     height: auto;
   }
 
+.aj12img{
+  background-image: url("MJ-wearing-AJ12.webp");
+  min-height: 100%;
+}
+
   .caption {
     position: absolute;
     left: 0%;
