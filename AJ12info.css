@@ -2,17 +2,12 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
-.aj12img {
+  img {
     position: relative;
     opacity: 0.65;
     width: 100%;
     height: auto;
   }
-
-.aj12img{
-  background-image: url("MJ-wearing-AJ12.webp");
-  min-height: 100%;
-}
 
   .caption {
     position: absolute;
