@@ -1,11 +1,13 @@
 div{
     border: none;
     padding: 5px;
+    margin: 70px;
 }
 
 .img{
     float: right;
     opacity: 0.65;
-    position: 30%;
 }
+
+
 
