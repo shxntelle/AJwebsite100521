@@ -52,7 +52,7 @@ h3 {
 }
 
 .aj1-img{
-    margin-right: 30px;
+    margin-right: inherit;
 }
 
 @media only screen and (max-device-width: 1024px) {
