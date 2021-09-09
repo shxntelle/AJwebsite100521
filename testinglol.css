@@ -61,7 +61,7 @@ h3 {
     }
 }
 
-a:link, a:visited {
+button {
     background-color: #ffffff;
     color: #777;
     padding: 14px 25px;
