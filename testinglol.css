@@ -68,9 +68,9 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    outline: none;
   }
   
-  a:hover, a:active {
+  button:hover, button:active {
     background-color: rgb(219, 219, 219);
+    outline: none;
   }
