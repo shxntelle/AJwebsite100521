@@ -12,7 +12,7 @@
 }
 
 .caption{
-  position: absolute;
+  position: center;
   left: 0%;
   top: 50%;
   width: 1000px;
@@ -25,7 +25,6 @@
 .caption span.border {
   background-color: #111;
   color: #fff;
-  padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
 }
