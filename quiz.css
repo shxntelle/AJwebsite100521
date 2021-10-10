@@ -3,6 +3,7 @@ div{
     text-transform: uppercase;
     font: 27px "Lato", sans-serif;
     padding-top: 10% ;
+    padding-left: 50%;
     border: transparent;
     background-color: rgb(204, 204, 204);
 }
