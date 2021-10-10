@@ -2,4 +2,7 @@ div{
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 27px "Lato", sans-serif;
+    padding: 75%;
+    border: transparent;
+    background-color: rgb(204, 204, 204);
 }
