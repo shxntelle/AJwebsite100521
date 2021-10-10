@@ -21,4 +21,10 @@ button{
     text-decoration: none;
     display: inline-block;
     border: none;
+    background: rgb(197, 197, 197);
 }
+
+button:hover, button:active {
+    background-color: rgb(128, 128, 128);
+    transition-duration: .68s;
+  }
