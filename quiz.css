@@ -4,11 +4,20 @@ html{
     background: rgb(14, 14, 14);
 }
 
-div{
+.quiz-title{
     font-family: 'PT Serif', serif;
     color: rgb(255, 255, 255);
-    font-size: 53px;
+    font-size: 49px;
     letter-spacing: 0.7px;
     padding-top: 13%;
     padding-left: 3%;
+}
+
+.short-intro{
+    font-family: 'PT Serif', serif;
+    color: rgb(255, 255, 255);
+    padding-top: 13%;
+    padding-left: 3%; 
+    font-size: 17px;
+
 }
