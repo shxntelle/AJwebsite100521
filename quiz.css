@@ -6,7 +6,7 @@ html{
 
 div{
     font-family: 'PT Serif', serif;
-    font: 84px;
     color: rgb(255, 255, 255);
-    padding: 32%;
+    font-size: 67px;
+    padding: 10%;
 }
