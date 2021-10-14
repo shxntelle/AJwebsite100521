@@ -16,6 +16,6 @@ html{
 .short-intro{
     font-family: 'PT Serif', serif;
     color: rgb(255, 255, 255);
-    font-size: 17px;
-
+    padding-left: 3%;
+    font-size: 15px;
 }
