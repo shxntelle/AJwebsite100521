@@ -22,7 +22,7 @@ html{
 }
 
 button{
-    border: white;
+    border: 1px solid white;
     background-color: rgb(14, 14, 14);
     padding: 17px;
 }
