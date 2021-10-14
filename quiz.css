@@ -25,6 +25,7 @@ button{
     border: 1px solid white;
     background-color: rgb(14, 14, 14);
     padding: 17px;
+    color: white;
 }
 
 button:hover, button:active {
