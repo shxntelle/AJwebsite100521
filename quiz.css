@@ -23,6 +23,11 @@ html{
 
 button{
     border: white;
-    color: black;
-    padding: 10px;
+    background-color: rgb(14, 14, 14);
+    padding: 17px;
 }
+
+button:hover, button:active {
+    background-color: rgb(32, 32, 32);
+    transition-duration: .68s;
+  }
