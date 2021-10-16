@@ -1,14 +1,14 @@
 body{
-    background: #ff9b00;
+    background: #161616;
     padding: 0;
     margin: 0;
 }
 
 .container{
     width: 763px;
-    height: 566px;
+    height: 561px;
     margin: 100px auto;
-    background: #fff;
+    background: rgb(58, 58, 58);
     position: relative;
 }
 
@@ -17,7 +17,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
-    color: #555;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: center;
     position: relative;
