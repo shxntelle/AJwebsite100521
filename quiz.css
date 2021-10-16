@@ -1,12 +1,12 @@
 body{
-    background: #161616;
+    background: #000000;
     padding: 0;
     margin: 0;
 }
 
 .container{
     width: 763px;
-    height: 561px;
+    height: 552px;
     margin: 100px auto;
     background: rgb(58, 58, 58);
     position: relative;
