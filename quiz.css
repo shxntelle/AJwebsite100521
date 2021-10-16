@@ -40,6 +40,6 @@ button{
 }
 
 button:hover, button:active{
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(70, 70, 70);
     transition-duration: .69s;
 }
