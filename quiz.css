@@ -38,3 +38,8 @@ button{
     padding: 17px;
     color: #fff;
 }
+
+button:hover, button:active{
+    background-color: rgb(46, 46, 46);
+    transition-duration: .69s;
+}
