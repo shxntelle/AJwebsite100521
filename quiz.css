@@ -6,7 +6,6 @@ body{
 .background{
     background: url('background.jpeg');
     opacity: .50;
-    size: 1000px;
 }
 
 .container{
