@@ -1,11 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
-}
-
-.background{
     background: url('background.jpeg');
-    opacity: .50;
+    opacity: 0.50;
 }
 
 .container{
