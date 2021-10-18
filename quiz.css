@@ -1,9 +1,6 @@
-html{
+body{
     background: url('background.jpeg');
-}
-
-.background{
-    opacity: 0.26;
+    opacity: .50;
 }
 
 .container{
