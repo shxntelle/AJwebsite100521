@@ -1,8 +1,10 @@
 body{
-    background: url('background.jpeg');
+    margin: 0;
+    padding: 0;
 }
 
 .background{
+    background: url('background.jpeg');
     opacity: .50;
 }
 
