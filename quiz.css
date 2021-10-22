@@ -42,7 +42,7 @@ body{
 
 .container{
     width: 767px;
-    height: 513px;
+    height: 444px;
     margin: 100px auto;
     background: rgb(36, 36, 36);
     position: relative;
@@ -50,7 +50,7 @@ body{
 
 .container h1{
     margin: 0;
-    padding-top: 4px;
+    padding-top: 12px;
     font-family: "Lato", sans-serif;
     font-size: 47px;
     color: rgb(255, 255, 255);
