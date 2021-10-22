@@ -32,6 +32,7 @@ body {
 .navbar a:hover {
     background: rgb(189, 189, 189);
     color: black;
+    font-size: 21px;
     transition: 0.69s;
 }
 
