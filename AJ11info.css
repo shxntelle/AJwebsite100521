@@ -9,7 +9,7 @@ body {
 .navbar ul {
   list-style: none;
   background: #ffffff;
-  padding-left: 199px;
+  padding: 0;
   margin: 0;
 }
 
@@ -41,7 +41,7 @@ h1{
   font: 27px "Lato", sans-serif;
 }
 
-div{
+.clearfix{
   border: none;
   padding: 5px;
   margin-left: 9%;
