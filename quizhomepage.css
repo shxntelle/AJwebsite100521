@@ -79,4 +79,5 @@ button{
 button:hover, button:active{
     background-color: rgb(70, 70, 70);
     transition-duration: .69s;
+    cursor: pointer;
 }
