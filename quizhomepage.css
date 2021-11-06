@@ -33,6 +33,7 @@ body {
     background: rgb(189, 189, 189);
     color: black;
     transition: 0.69s;
+    cursor: pointer;
 }
 
 body{
