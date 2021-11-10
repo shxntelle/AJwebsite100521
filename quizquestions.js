@@ -13,35 +13,35 @@ let questions = [
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "What colorway is the Jordan 1'Banned'?",
+    answer: "Red and Black", 
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Red and Black",
+      "Black and White",
+      "Red, White and Black",
+      "Orange and Black"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Where was the Air Jordan 11 'Concord' released?",
+    answer: "Orlando",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "New York",
+      "Michigan",
+      "Orlando",
+      "Chicago"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "When did Michael Jordan wear the Air Jordan 12 'Flu Game'?",
+    answer: "1997",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "1995",
+      "1997",
+      "1990",
+      "1993"
     ]
   },
     {
