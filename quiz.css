@@ -46,6 +46,7 @@ body {
 
 body{
     background-image: url("background.jpeg");
+    opacity: 0.37;
 }
 
 ::selection{
