@@ -174,7 +174,7 @@ body{
 
 .quiz_box header .timer{
     color: #000000;
-    background: #cce5ff;
+    background: #dbdbdb;
     border: 1px solid #8a8a8a;
     height: 45px;
     padding: 0 8px;
@@ -229,7 +229,7 @@ section .option_list{
 }
 
 section .option_list .option{
-    background: aliceblue;
+    background: rgb(207, 207, 207);
     border: 1px solid #252525;
     border-radius: 5px;
     padding: 8px 15px;
