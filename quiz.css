@@ -46,7 +46,6 @@ body {
 
 body{
     background-image: url("background.jpeg");
-    opacity: 0.37;
 }
 
 ::selection{
@@ -176,7 +175,7 @@ body{
 .quiz_box header .timer{
     color: #000000;
     background: #cce5ff;
-    border: 1px solid #b8daff;
+    border: 1px solid #8a8a8a;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -248,9 +247,9 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    color: #000000;
+    background: #b8b8b8;
+    border: 1px solid #b8b8b8;
 }
 
 section .option_list .option.correct{
