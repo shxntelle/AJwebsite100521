@@ -200,8 +200,8 @@ body{
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #4d4e4e;
+    border: 1px solid #4e4e4e;
     user-select: none;
 }
 
@@ -248,8 +248,8 @@ section .option_list .option:last-child{
 
 section .option_list .option:hover{
     color: #000000;
-    background: #b8b8b8;
-    border: 1px solid #b8b8b8;
+    background: #dadada;
+    border: 1px solid #dadada;
 }
 
 section .option_list .option.correct{
