@@ -82,7 +82,7 @@ window.addEventListener('click', e => {
 // });
 
 // Real time listener
-db.collection('users').onSnapshot(snapshot => {
+db.collection('user').onSnapshot(snapshot => {
   snapshot.docChanges().forEach(change => {
     if(change.type === 'added') {
       renderUser(change.doc);
