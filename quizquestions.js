@@ -46,13 +46,13 @@ let questions = [
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "What team was the Chicago Bulls playing against when Micahael Jordan was wearing the Air Jordan 12 'Flu Game'?",
+    answer: "Utah Jazz",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Boston Celtics",
+      "New York Knicks",
+      "LA Lakers",
+      "Utah Jazz"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
