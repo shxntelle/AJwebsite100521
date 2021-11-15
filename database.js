@@ -75,8 +75,8 @@ window.addEventListener('click', e => {
 });
 
 // Get all users
- db.collection('users').get().then(querySnapshot => {
-   querySnapshot.forEach(doc => {
+db.collection('users').get().then(querySnapshot => {
+ querySnapshot.forEach(doc => {
      renderUser(doc);
    })
 });
