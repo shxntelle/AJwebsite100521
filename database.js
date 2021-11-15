@@ -18,8 +18,8 @@ const renderUser = doc => {
   const tr = `
     <tr data-id='${doc.id}'>
       <td>${doc.data().fullName}</td>
-      <td>${doc.data().lastName}</td>
-      <td>${doc.data().phone}</td>
+      <td>${doc.data().nickname}</td>
+      <td>${doc.data().score}</td>
       <td>${doc.data().email}</td>
       <td>
         <button class="btn btn-edit">Edit</button>
@@ -36,8 +36,8 @@ const renderUser = doc => {
 
     id = doc.id;
     editModalForm.fullName.value = doc.data().fullName;
-    editModalForm.lastName.value = doc.data().lastName;
-    editModalForm.phone.value = doc.data().phone;
+    editModalForm.nickname.value = doc.data().nickname;
+    editModalForm.score.value = doc.data().score;
     editModalForm.email.value = doc.data().email;
 
   });
@@ -59,8 +59,8 @@ btnAdd.addEventListener('click', () => {
   addModal.classList.add('modal-show');
 
   addModalForm.fullName.value = '';
-  addModalForm.lastName.value = '';
-  addModalForm.phone.value = '';
+  addModalForm.nickname.value = '';
+  addModalForm.score.value = '';
   addModalForm.email.value = '';
 });
 
@@ -106,8 +106,8 @@ addModalForm.addEventListener('submit', e => {
   e.preventDefault();
   db.collection('users').add({
     fullName: addModalForm.fullName.value,
-    lastName: addModalForm.lastName.value,
-    phone: addModalForm.phone.value,
+    nickname: addModalForm.nickname.value,
+    score: addModalForm.score.value,
     email: addModalForm.email.value,
   });
   modalWrapper.classList.remove('modal-show');
@@ -118,8 +118,8 @@ editModalForm.addEventListener('submit', e => {
   e.preventDefault();
   db.collection('users').doc(id).update({
     firstName: editModalForm.fullName.value,
-    lastName: editModalForm.lastName.value,
-    phone: editModalForm.phone.value,
+    nickname: editModalForm.nickname.value,
+    score: editModalForm.score.value,
     email: editModalForm.email.value,
   });
   editModal.classList.remove('modal-show');
