@@ -75,11 +75,11 @@ window.addEventListener('click', e => {
 });
 
 // Get all users
-db.collection('users').get().then(querySnapshot => {
- querySnapshot.forEach(doc => {
-     renderUser(doc);
-   })
-});
+//db.collection('users').get().then(querySnapshot => {
+// querySnapshot.forEach(doc => {
+//     renderUser(doc);
+//   })
+//});
 
 // Real time listener
 db.collection('users').onSnapshot(snapshot => {
